@@ -1,0 +1,84 @@
+html {
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+body {
+  /* font-family: "Neue Montreal", "Helvetica", sans-serif; */
+  font-family: "aktiv-grotesk", sans-serif;
+  background: #0e1012;
+  color: #fff;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+}
+
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #0e1012;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 1px solid #fff; */
+  padding: 0 1.38889vw;
+  z-index: 99;
+  overflow: hidden;
+}
+header .line {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+header .logo {
+  display: block;
+}
+header h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+header .clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+}
+header .mode {
+  display: block;
+}
+header .mode a {
+  display: block;
+  padding: 10px 0;
+}
+header .mode svg {
+  display: block;
+  height: 1.73913vh;
+  width: 2.82609vh;
+  fill: none;
+  stroke: none;
+  margin-left: 10px;
+}
+header .mode svg circle {
+  fill: none;
+  transition: .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+header .mode svg .circle_1 {
+  fill: currentColor;
+  transform: translateX(-5px);
+}
+header .mode svg .circle_2 {
+  stroke: currentColor;
+  transform: translateX(5px);
+}
+header a:hover .circle_1, header a:hover .circle_2  {
+  transform: translateX(0);
+}

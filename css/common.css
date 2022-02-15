@@ -1,0 +1,38 @@
+/* Aktiv Grotesk */
+@import url("https://use.typekit.net/lai3rkk.css");
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Dark/Light Mode */
+.system.light {
+  background: #f1efed;
+  color: #0e1012;
+  border-color: #000;
+  transition: .6s ease-in-out;
+}
+header.light .line {
+  background: #000;
+}
+.projects.light .title_area, .projects.light .title_area .headline, .projects.light nav li {
+  border-color: #000;
+}
+.projects.light nav .project .subtitle .view .view_bg,
+.projects.light nav .project .subtitle .view .view_bg_2,
+.projects.light nav .project .subtitle .view .view_label {
+  background: #0e1012;
+  color: #fff;
+}
+.projects.light nav .project .subtitle .view .view_label {
+  border-radius: 20px;
+}
