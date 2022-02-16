@@ -10,6 +10,7 @@
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Neue Montreal - Light Italic';
   src: url('../font/NeueMontreal-LightItalic.eot');
@@ -33,6 +34,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Neue Montreal - Italic';
   src: url('../font/NeueMontreal-Italic.eot');
@@ -56,6 +58,7 @@
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Neue Montreal - Medium Italic';
   src: url('../font/NeueMontreal-MediumItalic.eot');
@@ -79,6 +82,7 @@
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Neue Montreal - Bold Italic';
   src: url('../font/NeueMontreal-BoldItalic.eot');

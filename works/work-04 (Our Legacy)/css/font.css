@@ -1,6 +1,6 @@
-/* DharmaGothicE */
+/* Dharma Gothic E */
 @font-face {
-  font-family: 'DharmaGothicE-Bold';
+  font-family: 'Dharma Gothic E - Bold';
   src: url('../font/DharmaGothicE-Bold.eot');
   src: url('../font/DharmaGothicE-Bold.eot?#iefix') format('embedded-opentype'),
        url('../font/DharmaGothicE-Bold.svg#DharmaGothicE-Bold') format('svg'),
@@ -10,8 +10,9 @@
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'DharmaGothicE-ExBold';
+  font-family: 'Dharma Gothic E - Extra Bold';
   src: url('../font/DharmaGothicE-ExBold.eot');
   src: url('../font/DharmaGothicE-ExBold.eot?#iefix') format('embedded-opentype'),
        url('../font/DharmaGothicE-ExBold.svg#DharmaGothicE-ExBold') format('svg'),
@@ -22,9 +23,10 @@
   font-style: normal;
 }
 
-/* RecoletaAlt */
+
+/* Recoleta Alt */
 @font-face {
-  font-family: 'RecoletaAlt-Regular';
+  font-family: 'Recoleta Alt - Regular';
   src: url('../font/RecoletaAlt-Regular.eot');
   src: url('../font/RecoletaAlt-Regular.eot?#iefix') format('embedded-opentype'),
        url('../font/RecoletaAlt-Regular.svg#RecoletaAlt-Regular') format('svg'),
@@ -34,8 +36,9 @@
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'RecoletaAlt-Medium';
+  font-family: 'Recoleta Alt - Medium';
   src: url('../font/RecoletaAlt-Medium.eot');
   src: url('../font/RecoletaAlt-Medium.eot?#iefix') format('embedded-opentype'),
        url('../font/RecoletaAlt-Medium.svg#RecoletaAlt-Medium') format('svg'),
@@ -45,8 +48,9 @@
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'RecoletaAlt-SemiBold';
+  font-family: 'Recoleta Alt - Semi Bold';
   src: url('../font/RecoletaAlt-SemiBold.eot');
   src: url('../font/RecoletaAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
        url('../font/RecoletaAlt-SemiBold.svg#RecoletaAlt-SemiBold') format('svg'),
