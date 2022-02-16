@@ -4,8 +4,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* font-family: "Neue Montreal", "Helvetica", sans-serif; */
-  font-family: "aktiv-grotesk", sans-serif;
+  font-family: "Neue Montreal", sans-serif;
+  /* font-family: "aktiv-grotesk", sans-serif; */
   background: #0e1012;
   color: #fff;
   -ms-overflow-style: none;
@@ -24,7 +24,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border-bottom: 1px solid #fff; */
   padding: 0 1.38889vw;
   z-index: 99;
   overflow: hidden;
