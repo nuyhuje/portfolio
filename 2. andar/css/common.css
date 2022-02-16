@@ -1,0 +1,236 @@
+.blind {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  margin-left: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+
+/* 스프라이트 아이콘 이미지 */
+header .gnb_wrap .logo_area .menu_srh .ico_menu,
+header .gnb_wrap .logo_area .menu_srh .ico_srh,
+header .gnb_wrap .logo_area .cart_mypage .ico_cart,
+header .gnb_wrap .logo_area .cart_mypage .ico_mypage {
+  background: url('../images/sp_common_layout.png') no-repeat;
+}
+
+/* 헤더 - 서브 메뉴 아이콘 */
+header .gnb_wrap .gnb_menu .btn_more-menu i,
+header .gnb_wrap .aside .aside_gnb .arrow_box .menu_arrow,
+header .gnb_wrap .aside .aside_bottom .bottom_menu_wrap .arrow_box .menu_arrow {
+  background: url('../images/ico/ico_arrow-drop.png') no-repeat;
+  background-position: center;
+}
+
+
+/* 두 줄 효과 */
+.cont_type1 ul .info .name a,
+.cont_type2 .type2_list .info .name a,
+.cont_type3 .t3_slide .info .name a {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+
+/* 폰트 공통 CSS */
+strong {
+  font-weight: 700;
+}
+/* 상품 리뷰 */
+.review {
+  color: #8e1f29;
+  font-weight: 600;
+  line-height: 13px;
+  font-family: 'Gilroy';
+}
+/* 상품명 */
+.name {
+  font-size: 14px;
+  line-height: normal;
+  padding: 10px 0;
+}
+/* 할인율 */
+.sale {
+  color: #8E1F29 !important;
+  font-size: 15px !important;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+}
+/* 정가, 할인가 */
+.price1 {
+  font-size: 15px !important;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-family: 'Gilroy','NotoSansKR',sans-serif;
+  margin-left: 5px;
+}
+/* 할인전 가격 */
+.price2 {
+  line-height: 18px !important;
+  font-weight: 400 !important;
+  color: #8d8d8d !important;
+  letter-spacing: -0.03em;
+  margin-left: 5px;
+  text-decoration: line-through;
+}
+/* 제품 컬러 */
+.color_box {
+  line-height: 13px;
+  letter-spacing: -0.05em;
+  color: #999;
+  font-weight: 500;
+  padding: 9px 0 8px;
+}
+.color {
+  margin-left: 5px;
+}
+
+
+/* 타입 1 버튼 */
+.type1_more {
+  display: block;
+  width: 100%;
+  height: 52px;
+  line-height: 52px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  background: #fff;
+  font-size: 15px;
+  color: #222;
+  font-weight: 500;
+  text-align: center;
+}
+.type1_more::after {
+  display: inline-block;
+  content: "";
+  background: url('../images/ico/ico_btn-type1.png') no-repeat;
+  background-size: 19px auto;
+  background-position: center;
+  vertical-align: -4px;
+  padding-left: 5px;
+  width: 19px;
+  height: 19px;
+}
+
+
+/* 타입 2 여백 */
+.type2_inner {
+  padding: 0 16px;
+}
+/* 타입 2 버튼 */
+.type2_more {
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid #1e1e1e;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 8px 47px 8px 18px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  background: #1e1e1e url('../images/ico/ico_btn-type2.png') no-repeat;
+  background-size: 15px auto;
+  background-position: calc(100% - 18px) center;
+}
+
+
+/* 뱃지 */
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 18%;
+  max-width: 36px;
+}
+.badge img {
+  width: 100%;
+}
+.txt_badge {
+  border: 1px solid rgba(142,31,41,0.5);
+  box-sizing: border-box;
+  padding: 5px 6px;
+  color: #8e1f28;
+  font-size: 9px !important;
+  line-height: 9px;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+
+/* 스크롤탑 버튼 */
+.btn_scrolltop_box {
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  border: 1px solid #e9e9e9;
+  background: rgba(255,255,255,0.7);
+  z-index: 5;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: .6s;
+}
+.btn_scrolltop_box.show {
+  opacity: 1;
+  transition: .6s;
+}
+.btn_scrolltop_box.hidden {
+  visibility: hidden;
+  transition: .1s;
+}
+.btn_scrolltop_box .kakao_wrap {
+  padding: 5px;
+  width: 50px;
+}
+.btn_scrolltop_box .kakao_wrap a {
+  display: block;
+  padding-left: 2px;
+}
+.btn_scrolltop_box .kakao_wrap .ico_kakaotalk {
+  display: block;
+  background: url('../images/ico/ico_kakaotalk.png') no-repeat;
+  background-size: 35px 30px;
+  height: 30px;
+  margin-top: 4px;
+}
+.btn_scrolltop_box .kakao_wrap span {
+  display: block;
+  padding-top: 10px;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  color: #595959;
+  text-align: center;
+}
+.btn_scrolltop_box .btn_top {
+  border-top: 1px solid #e9e9e9;
+  padding: 5px;
+  display: block;
+  height: 50px;
+  position: relative;
+}
+.btn_scrolltop_box .btn_top .ico_arrowtop {
+  display: block;
+  background: url('../images/ico/ico_arrow-top.png') no-repeat;
+  background-size: 100%;
+  width: 20px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

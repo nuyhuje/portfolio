@@ -1,0 +1,524 @@
+/* 메뉴 영역 */
+.main_nav {
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.main_nav video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.main_nav .nav_wrap {
+  margin-left: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main_nav .nav_wrap > p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 40px;
+}
+.main_nav .nav_wrap .nav {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 66px;
+  font-weight: 800;
+}
+.main_nav .nav_wrap .nav li {
+  margin-bottom: 10px;
+  display: list-item;
+  line-height: 90px;
+}
+.main_nav .nav_wrap .nav li a {
+  position: relative;
+  height: 87px;
+  display: inline-block;
+}
+.main_nav .nav_wrap .nav li a:hover span {
+  visibility: hidden;
+}
+.main_nav .nav_wrap .nav li a::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  white-space: nowrap;
+}
+.main_nav .nav_wrap .nav li a:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s;
+}
+
+
+/* What We Do 영역 */
+.whatwedo {
+  background-color: #f3f6f9;
+  padding: 160px 0;
+}
+.whatwedo .content {
+  display: flex;
+  align-items: center;
+}
+.whatwedo .content .txt_box {
+  padding: 12px;
+  width: 588px;
+}
+.whatwedo .content ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -12px;
+}
+.whatwedo .content ul li {
+  width: 282px;
+  height: 88px;
+  padding: 12px;
+}
+.whatwedo .content ul li .list_wrap {
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 2px 2px 10px 0 rgb(43 60 91 / 5%);
+}
+.whatwedo .content ul li img {
+  width: 64px;
+  height: 64px;
+}
+.whatwedo .content ul li .txt_wrap {
+  margin-left: 15px;
+}
+.whatwedo .content ul li .txt_wrap span {
+  color: #727272;
+  font-size: 14px;
+}
+.whatwedo .content ul li .txt_wrap p {
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.whatwedo .content .img_box {
+  width: 588px;
+  height: 472px;
+  display: flex;
+  justify-content: flex-end;
+}
+.whatwedo .content .img_box img {
+  width: auto;
+}
+
+
+/* 클라이언트 영역 */
+.cont_client {
+  padding: 160px 0;
+  position: relative;
+}
+.cont_client .inner {
+  display: flex;
+}
+.cont_client .txt_box {
+  width: 384px;
+  height: 270px;
+}
+.cont_client .clientSwiper {
+  padding-bottom: 50px;
+}
+.cont_client .clientSwiper .swiper-wrapper {
+  max-width: 816px;
+}
+.cont_client .clientSwiper .swiper-slide {
+  width: 158px;
+  height: 201px;
+  max-width: 158px;
+  text-align: center;
+  padding : 24px 10px;
+  border: 1px solid #eee;
+  border-radius: 7px;
+  box-shadow: 2px 2px 12px 0 rgb(43 60 91 / 15%);
+  margin: 0 12px;
+}
+.cont_client .clientSwiper .swiper-slide img {
+  margin-bottom: 20px;
+}
+.cont_client .clientSwiper .swiper-slide p {
+  font-size: 18px;
+  line-height: 26px;
+}
+.cont_client .clientSwiper .swiper-slide span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #727272;
+}
+.cont_client .clientSwiper .swiper-scrollbar {
+  /* width: 720px; */
+  width: calc(100% - 100px);
+  height: 3px;
+  background: #e2e8f9;
+  position: absolute;
+  right: 12px;
+  left: auto;
+  bottom: 10px;
+  border-radius: 3px;
+}
+.swiper-scrollbar-drag {
+  background: #003dab;
+  border-radius: 0;
+}
+.cont_client .controls {
+  position: absolute;
+  left: 12px;
+  bottom: 0;
+  display: flex;
+}
+.cont_client .controls .btn {
+  display: block;
+}
+.cont_client .controls .btn svg {
+  width: 24px;
+  height: 24px;
+  fill: #bebebe;
+}
+.cont_client .controls .btn.btn_prev {
+  margin-right: 12px;
+}
+
+
+/* 서비스 영역 */
+.cont_service {
+  background-color: #f3f6f9;
+  padding: 160px 0;
+}
+.cont_service .inner {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_service .txt_box {
+  padding: 12px;
+  width: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cont_service .txt_box .cont_subTitle2 {
+  margin: 0;
+}
+.cont_service .txt_box .btn_viewMore {
+  margin-top: 31px;
+}
+.cont_service .content {
+  display: flex;
+}
+.cont_service .content .service {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 2px 2px 12px 0 rgb(130 147 186 / 40%);
+  margin: 12px;
+}
+.cont_service .content .service img {
+  border-radius: 7px 7px 0 0;
+}
+.cont_service .content .service .txt_wrap {
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+}
+.cont_service .content .service .txt_wrap .tag {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #727272;
+}
+.cont_service .content .service .txt_wrap .tag span {
+  float: left;
+  margin-right: 5px;
+}
+.cont_service .content .service .txt_wrap .title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.9;
+  margin-bottom: 6px;
+}
+
+
+/* 블로그 영역 */
+.cont_blog {
+  padding-top: 160px;
+}
+.cont_blog .cont_title {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+.cont_blog .cont_title .cont_mTitle {
+  margin: 0;
+}
+.cont_blog .cont_title .btn_viewMore {
+  margin-left: 30px;
+}
+.cont_blog .post_list {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_blog .post_list li {
+  padding: 16px;
+  width: 368px;
+  height: 380px;
+}
+.cont_blog .post_list li .img_wrap {
+  display: block;
+  height: 192px;
+  max-height: 245px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+.cont_blog .post_list li img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 7px;
+}
+.cont_blog .post_list li .cate {
+  font-weight: 500;
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+  color: #003dab;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 24px;
+  margin-bottom: 3px;
+  display: block;
+}
+.cont_blog .post_list li .blog_contTitle {
+  color: #333;
+  font-size: 22px;
+  display: block;
+  font-weight: 500;
+  line-height: 34px;
+  margin-bottom: 3px;
+}
+.cont_blog .post_list li h3 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cont_blog .post_list li .blog_maintxt {
+  color: #727272!important;
+  font-size: 16px!important;
+  font-weight: 300!important;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 24px;
+}
+
+
+/* 뉴스레터/인스타그램 영역 */
+.cont_contact {
+  padding: 160px 0;
+}
+.cont_contact .inner {
+  display: flex;
+}
+.cont_contact h2 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 42px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* 뉴스레터 */
+.cont_contact .inner {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_contact .newsletter {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  /* margin-left: -12px; */
+  margin-right: 20px;
+}
+.cont_contact .newsletter .post {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  border: 1px solid #eee;
+  border-radius: 7px;
+  margin: 12px 12px 12px 0;
+  width: 592px;
+}
+.cont_contact .newsletter .post img {
+  height: 156px;
+}
+.cont_contact .newsletter .post .txt_box {
+  margin-left: 24px;
+}
+.cont_contact .newsletter .post h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  line-height: 1.3;
+  word-break: keep-all;
+}
+.cont_contact .newsletter .post p {
+  max-width: 327px;
+  font-size: 16px;
+  color: #727272;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+.cont_contact .newsletter .subs {
+  background-color: #f0f3fa;
+  border-radius: 7px;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 12px 12px 0;
+}
+.cont_contact .newsletter .subs .flex_wrap {
+  display: flex;
+  align-items: center;
+}
+.cont_contact .newsletter .subs img {
+  width: 30px;
+  height: 30px;
+}
+.cont_contact .newsletter .subs .txt_wrap {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.cont_contact .newsletter .subs .txt_wrap span {
+  font-size: 14px;
+  color: #486db2;
+  margin-bottom: 8px;
+}
+.cont_contact .newsletter .subs .txt_wrap strong {
+  font-size: 20px;
+  color: #222;
+  font-weight: 500;
+}
+.cont_contact .newsletter .subs .btn_go {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 6px 0 rgb(207 219 246 / 50%);
+}
+
+/* 인스타그램 */
+.cont_contact .instagram {
+  padding: 12px;
+}
+.cont_contact .instagram ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -8px;
+}
+.cont_contact .instagram ul li {
+  width: 151px;
+  height: 151px;
+  padding: 8px;
+}
+.cont_contact .instagram ul li a {
+  display: block;
+  height: 100%;
+  position: relative;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.cont_contact .instagram ul li img {
+  width: 100%;
+}
+.cont_contact .instagram ul li a::after {
+  content: "";
+  background: rgba(0,61,171,.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.cont_contact .instagram ul li a:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s;
+}
+.cont_contact .instagram ul li a:hover svg {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+/* .cont_contact .instagram ul li .overlay {
+  width: 147px;
+  height: 147px;
+  background: rgba(0,61,171,.8);
+  border-radius: 7px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  opacity: 0;
+}
+.cont_contact .instagram ul li .ico_insta {
+  display: inline-block;
+  background: url('../images/icons/ico-sns-instagram-white.png') no-repeat;
+  background-size: 100%;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+} */
+
+
+/* 챗봇 버튼 */
+.chatbot {
+  position: fixed;
+  bottom: 18px;
+  right: 26px;
+  z-index: 99;
+}
+.chatbot .btn_chatbot {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 26px !important;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px, rgb(0 0 0 / 15%) 0px 8px 30px, rgb(255 255 255 / 20%) 0px 0px 0px 1px inset !important;
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(30px) !important;
+  position: relative;
+}
+.chatbot .btn_chatbot svg {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

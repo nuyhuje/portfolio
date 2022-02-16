@@ -1,0 +1,121 @@
+@charset "UTF-8";
+header {
+  /* 스모크 효과 */
+  /* 시안과 같은 효과 */
+}
+header .gnb a div {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  text-shadow: 0 40px 0 #dae0e6;
+}
+header .gnb a div span {
+  display: block;
+}
+header .gnb a div span:nth-child(1) {
+  transition-delay: 0.0111111111s;
+}
+header .gnb a div span:nth-child(2) {
+  transition-delay: 0.0222222222s;
+}
+header .gnb a div span:nth-child(3) {
+  transition-delay: 0.0333333333s;
+}
+header .gnb a div span:nth-child(4) {
+  transition-delay: 0.0444444444s;
+}
+header .gnb a div span:nth-child(5) {
+  transition-delay: 0.0555555556s;
+}
+header .gnb a div span:nth-child(6) {
+  transition-delay: 0.0666666667s;
+}
+header .gnb a div span:nth-child(7) {
+  transition-delay: 0.0777777778s;
+}
+header .gnb a div span:nth-child(8) {
+  transition-delay: 0.0888888889s;
+}
+header .gnb a div span:nth-child(9) {
+  transition-delay: 0.1s;
+}
+header .gnb a div span:nth-child(10) {
+  transition-delay: 0.1111111111s;
+}
+header .gnb a div span:nth-child(11) {
+  transition-delay: 0.1222222222s;
+}
+header .gnb a div span:nth-child(12) {
+  transition-delay: 0.1333333333s;
+}
+header .gnb a div span:nth-child(13) {
+  transition-delay: 0.1444444444s;
+}
+header .gnb a div span:nth-child(14) {
+  transition-delay: 0.1555555556s;
+}
+header .gnb a div span:nth-child(15) {
+  transition-delay: 0.1666666667s;
+}
+header .gnb a div span:nth-child(16) {
+  transition-delay: 0.1777777778s;
+}
+header .m_menu_list a div {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  text-shadow: 0 40px 0 #dae0e6;
+}
+header .m_menu_list a div span {
+  display: block;
+}
+header .m_menu_list a div span:nth-child(1) {
+  transition-delay: 0.0125s;
+}
+header .m_menu_list a div span:nth-child(2) {
+  transition-delay: 0.025s;
+}
+header .m_menu_list a div span:nth-child(3) {
+  transition-delay: 0.0375s;
+}
+header .m_menu_list a div span:nth-child(4) {
+  transition-delay: 0.05s;
+}
+header .m_menu_list a div span:nth-child(5) {
+  transition-delay: 0.0625s;
+}
+header .m_menu_list a div span:nth-child(6) {
+  transition-delay: 0.075s;
+}
+header .m_menu_list a div span:nth-child(7) {
+  transition-delay: 0.0875s;
+}
+header .m_menu_list a div span:nth-child(8) {
+  transition-delay: 0.1s;
+}
+header .m_menu_list a div span:nth-child(9) {
+  transition-delay: 0.1125s;
+}
+header .m_menu_list a div span:nth-child(10) {
+  transition-delay: 0.125s;
+}
+header .m_menu_list a div span:nth-child(11) {
+  transition-delay: 0.1375s;
+}
+header .m_menu_list a div span:nth-child(12) {
+  transition-delay: 0.15s;
+}
+header .m_menu_list a div span:nth-child(13) {
+  transition-delay: 0.1625s;
+}
+header .m_menu_list a div span:nth-child(14) {
+  transition-delay: 0.175s;
+}
+header .m_menu_list a div span:nth-child(15) {
+  transition-delay: 0.1875s;
+}
+header .m_menu_list a div span:nth-child(16) {
+  transition-delay: 0.2s;
+}
+
+/*# sourceMappingURL=animation.css.map */

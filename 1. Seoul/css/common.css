@@ -1,0 +1,91 @@
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.inner {
+  width: 1152px;
+  margin: 0 auto;
+}
+
+
+/* 스프라이트 이미지 */
+header .header_top h1,
+header .header_bottom .srh button .btn_search,
+.sc_notice .slide .content .controls .btn i,
+.board_wrap .content .group_title .btn_more i,
+.sc_news .group_title .all::after,
+footer .footer_bottom h2,
+.banner_controls .controls_wrap .btn i {
+  background-image: url('../images/sp_main.png');
+  background-repeat: no-repeat;
+}
+
+/* 너와 나의 서울 로고 */
+header .header_bottom h1 {
+  background: url('../images/sp_logo.png') no-repeat;
+}
+
+.sc_notice .slide .content .tap .ico_news,
+.sc_notice .slide .content .tap .ico_citizen {
+  background: url('../images/sp_slide.png') no-repeat;
+}
+
+/* 주요 서비스 아이콘 */
+.main_service .service_list li .ico_service {
+  background: url('../images/sp_service.png') no-repeat;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+/* 서울시 SNS 아이콘 */
+.sc_seoul .seoul_sns a.title span::after,
+.sc_seoul .seoul_sns ul li a i {
+  background: url('../images/sp_seoul-sns.png') no-repeat;
+  display: inline-block;
+}
+
+/* 푸터 SNS 아이콘 */
+footer .footer_top .sns_wrap a i,
+footer .footer_top .sns_wrap a i:hover {
+  background: url('../images/sp_footer-sns.png') no-repeat;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+
+/* 컨텐츠 제목 h2 */
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+
+/* 스크롤탑 버튼 */
+.btn_top {
+  position: fixed;
+  left: 50%;
+  bottom: -50px;
+  margin-left: 600px;
+  transition: .8s;
+  opacity: 0;
+}
+.btn_top.show {
+  bottom: 98px;
+  opacity: 1;
+}
+.btn_top .ico_scrolltop {
+  display: block;
+  background: url('../images/ico/ico_btn-scrolltop.png') no-repeat;
+  background-size: 100%;
+  width: 34px;
+  height: 34px;
+}

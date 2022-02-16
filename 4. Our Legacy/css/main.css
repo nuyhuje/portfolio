@@ -1,0 +1,372 @@
+/* 메인 배너 이미지 */
+.main_banner {
+  /* padding-top: 320px; */
+  padding-top: 18.5vw;
+}
+.main_banner a {
+  height: 670px;
+  display: block;
+  border: 1px solid #191919;
+  overflow: hidden;
+  position: relative;
+}
+.main_banner a img {
+  width: 100%;
+  position: absolute;
+  top: -110%;
+  left: 0;
+  object-fit: cover;
+  transition: transform 2.6s cubic-bezier(.16,1,.3,1);
+  /* filter: grayscale(100%); */
+}
+.main_banner a:hover img {
+  transform: scale(1.02);
+}
+.main_banner a img.active {
+  transform: scale(1.02);
+}
+
+
+/* 카테고리 슬라이드 영역 */
+.main_slide {
+  margin-top: 30px;
+  padding: 0 30px;
+}
+.main_slide .swiper-wrapper .swiper-slide {
+  position: relative;
+  width: 517px;
+  height: 567px;
+}
+.main_slide .swiper-wrapper .swiper-slide a {
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  border: 1px solid #191919;
+}
+.main_slide .swiper-slide .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fdfbf5;
+  z-index: 5;
+  transform: scale(1.01);
+}
+.main_slide .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  transition: transform 2.6s cubic-bezier(.16,1,.3,1);
+}
+.main_slide .swiper-wrapper .swiper-slide a:hover img {
+  transform: scale(1.02);
+}
+.main_slide .swiper-wrapper .swiper-slide p {
+  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+  position: absolute;
+  left: 35px;
+  bottom: 30px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.main_slide .swiper-slide .cont1_workshop img {
+  object-position: 0 -40px;
+}
+
+
+/* 카테고리별 상품 슬라이드 영역 */
+.product_list .content_title {
+  height: 320px;
+  overflow: hidden;
+}
+.product_list .content_title h2 {
+  display: block;
+  font-size: 350px;
+  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+}
+.product_list .content_slide {
+  border-top: 1px solid #191919;
+  border-bottom: 1px solid #191919;
+}
+.product_list .content_slide .swiper-slide {
+  border-right: 1px solid #191919;
+  width: 468px;
+  height: 730px;
+  padding: 0 30px;
+}
+.product_list .content_slide .swiper-slide .product_img {
+  display: block;
+  border: 1px solid #191919;
+  width: 406px;
+  height: 570px;
+  margin-top: 30px;
+  position: relative;
+}
+.product_list .content_slide .swiper-slide .product_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s;
+}
+.product_list .content_slide .swiper-slide .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.product_list .content_slide .swiper-slide .product_img:hover .back {
+  display: block;
+  opacity: 1;
+  transition: opacity .5s ease-out;
+}
+/* 슬라이드 - 상품명, 가격 */
+.product_list .content_slide .swiper-slide .info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.product_list .content_slide .swiper-slide .info .item {
+  font-size: 46px;
+  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product_list .content_slide .swiper-slide .info .price {
+  font-family: "RecoletaAlt-SemiBold", serif;
+  font-size: 24px;
+  margin-top: 5px;
+}
+/* 슬라이드 - 사이즈 */
+.product_list .content_slide .swiper-slide .info_size {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 16px;
+  opacity: 0;
+}
+.product_list .content_slide .swiper-slide:hover .info_size {
+  opacity: 1;
+}
+.product_list .content_slide .swiper-slide:hover .info {
+  display: none;
+}
+.product_list .content_slide .swiper-slide .info_size span {
+  font-family: "RecoletaAlt-SemiBold", serif;
+  font-size: 24px;
+}
+.product_list .content_slide .swiper-slide .info_size .soldout {
+  color: #ccc;
+}
+.product_list .content_slide .swiper-slide .info_size .available {
+  color: #191919;
+}
+.product_list .content_slide .swiper-slide .info_size .available:hover {
+  color: #fec333;
+  transition: color .5s ease-out;
+}
+/* 슬라이드 - VIEW ALL */
+.product_list .content_slide .slide_all a {
+  display: block;
+  height: 100%;
+  font-size: 45px;
+  line-height: 658px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "RecoletaAlt-SemiBold", serif;
+}
+.product_list .content_slide .slide_all a:hover {
+  color: #fec333;
+  transition: color .5s ease-out;
+}
+
+
+/* 단독 상품 영역 */
+.single_product {
+  display: flex;
+  border-bottom: 1px solid #191919;
+  height: 718px;
+}
+.single_product .info {
+  border-right: 1px solid #191919;
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-grow: 1;
+}
+.single_product .info .logo_area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.single_product .info .logo_area img {
+  width: 80px;
+  padding: 30px 15px 30px;
+}
+.single_product .info .logo_area .logo_workshop {
+  width: 65px;
+}
+.single_product .info .item {
+  width: 470px;
+  font-size: 110px;
+  margin: 27px 0 24px;
+  transition: .3s;
+  font-family: "DharmaGothicE-ExBold", condensed, sans-serif;
+}
+.single_product .info .item:hover {
+  color: #f9b510;
+  transition: color .2s ease-out;
+}
+.single_product .info .price {
+  font-family: "RecoletaAlt-SemiBold", serif;
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+.single_product .img_area {
+  display: block;
+  width: 1164px;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.single_product .img_area:hover img {
+  transform: scale(1.02);
+}
+.single_product .img_area img {
+  width: 100%;
+  /* object-position: 50% -5rem; */
+  transition: transform 2.6s cubic-bezier(.16,1,.3,1);
+}
+
+
+/* 컬렉션 영역 */
+.collections .content_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.collections .content_title h2 {
+  height: 320px;
+  font-size: 350px;
+  color: #fec333;
+  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+}
+
+/* 버튼 효과 */
+.collections .content_title .btn_view_all {
+  width: 160px;
+  height: 48px;
+  background: #fec333;
+  font-family: "RecoletaAlt-SemiBold", serif;
+  font-size: 20px;
+  border: 1px solid #191919;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.collections .content_title .btn_view_all span {
+  display: block;
+}
+.collections .content_title .btn_view_all .static {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+}
+.collections .content_title .btn_view_all .hover {
+  animation: marquee 10s infinite linear;
+  opacity: 0;
+  padding-right: .5rem;
+  white-space: nowrap;
+  position: absolute;
+}
+.collections .content_title .btn_view_all:hover .static {
+  opacity: 0;
+}
+.collections .content_title .btn_view_all:hover .hover {
+  opacity: 1;
+}
+.collections .content_title .btn_view_all .hover::after {
+  content: attr(data-hover);
+  padding-left: .5rem;
+}
+@keyframes marquee {
+  0% { transform: translateX(0) }
+  to { transform:translateX(-50%) }
+}
+
+/* 시즌별 컬렉션 */
+.collections ul {
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+.collections ul li {
+  width: calc((100% - 60px) / 4);
+  border-bottom: 1px solid #191919;
+  padding-bottom: 100px;
+}
+.collections ul li .img_area {
+  border: 1px solid #191919;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 150%;
+  /* height: 487px; */
+}
+.collections ul li .img_area a {
+  display: block;
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%;
+}
+.collections ul li .img_area a:hover img {
+  transform: scale(1.02);
+}
+.collections ul li .img_area a img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 2.6s cubic-bezier(.16,1,.3,1);
+}
+.collections ul li .img_area .txt_badge {
+  background: #f6f6f6;
+  border: 1px solid #191919;
+  border-radius: 15px;
+  padding: 13px 34px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 20px;
+  font-family: "RecoletaAlt-SemiBold", serif;
+}
+.collections ul li .txt_area {
+  display: block;
+  font-size: 37px;
+  margin-top: 18px;
+  transition: .3s;
+  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+}
+.collections ul li .txt_area:hover {
+  color: #fec333;
+  transition: .2s ease-out;
+}

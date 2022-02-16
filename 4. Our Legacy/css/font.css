@@ -1,0 +1,58 @@
+/* DharmaGothicE */
+@font-face {
+  font-family: 'DharmaGothicE-Bold';
+  src: url('../font/DharmaGothicE-Bold.eot');
+  src: url('../font/DharmaGothicE-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/DharmaGothicE-Bold.svg#DharmaGothicE-Bold') format('svg'),
+       url('../font/DharmaGothicE-Bold.ttf') format('truetype'),
+       url('../font/DharmaGothicE-Bold.woff') format('woff'),
+       url('../font/DharmaGothicE-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DharmaGothicE-ExBold';
+  src: url('../font/DharmaGothicE-ExBold.eot');
+  src: url('../font/DharmaGothicE-ExBold.eot?#iefix') format('embedded-opentype'),
+       url('../font/DharmaGothicE-ExBold.svg#DharmaGothicE-ExBold') format('svg'),
+       url('../font/DharmaGothicE-ExBold.ttf') format('truetype'),
+       url('../font/DharmaGothicE-ExBold.woff') format('woff'),
+       url('../font/DharmaGothicE-ExBold.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* RecoletaAlt */
+@font-face {
+  font-family: 'RecoletaAlt-Regular';
+  src: url('../font/RecoletaAlt-Regular.eot');
+  src: url('../font/RecoletaAlt-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/RecoletaAlt-Regular.svg#RecoletaAlt-Regular') format('svg'),
+       url('../font/RecoletaAlt-Regular.ttf') format('truetype'),
+       url('../font/RecoletaAlt-Regular.woff') format('woff'),
+       url('../font/RecoletaAlt-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RecoletaAlt-Medium';
+  src: url('../font/RecoletaAlt-Medium.eot');
+  src: url('../font/RecoletaAlt-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../font/RecoletaAlt-Medium.svg#RecoletaAlt-Medium') format('svg'),
+       url('../font/RecoletaAlt-Medium.ttf') format('truetype'),
+       url('../font/RecoletaAlt-Medium.woff') format('woff'),
+       url('../font/RecoletaAlt-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RecoletaAlt-SemiBold';
+  src: url('../font/RecoletaAlt-SemiBold.eot');
+  src: url('../font/RecoletaAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../font/RecoletaAlt-SemiBold.svg#RecoletaAlt-SemiBold') format('svg'),
+       url('../font/RecoletaAlt-SemiBold.ttf') format('truetype'),
+       url('../font/RecoletaAlt-SemiBold.woff') format('woff'),
+       url('../font/RecoletaAlt-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}

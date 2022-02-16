@@ -1,0 +1,85 @@
+/* Noto Sans KR, Poppins, Red Hat Display */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap');
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+.inner {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+::selection {
+  background: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+
+body.hidden {
+  overflow-y: hidden;
+}
+
+
+/* 컨텐츠 타이틀 */
+.cont_mTitle {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+/* 컨텐츠 서브 타이틀 */
+.cont_subTitle1 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+.cont_subTitle2 {
+  color: #424242;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+
+
+/* 버튼 - 더보기 */
+.btn_viewMore {
+  color: #003dab;
+  font-weight: 500;
+  font-size: 16px;
+}
+.btn_viewMore::after {
+  content: "";
+  background: url('../images/icons/ico-btn-view-more.png') no-repeat;
+  background-size: 100%;
+  width: 32px;
+  height: 11px;
+  display: inline-block;
+  margin-left: 12px;
+}
+/* 서비스 신청하기 + 뉴스레터 */
+.btn_go {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #003dab;
+  display: flex;
+  align-items: center;
+}
+.btn_go::after {
+  content: "";
+  background: url('../images/icons/ico-btn-more.png') no-repeat;
+  background-size: 100%;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  display: inline-block;
+}

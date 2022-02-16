@@ -1,0 +1,105 @@
+/* Semplicita */
+@import url("https://use.typekit.net/ifv0vhn.css");
+/* IvyPresto Display */
+@import url("https://use.typekit.net/ifv0vhn.css");
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+:root {
+  --color-bg-grey: #f7f7f7;
+  --color-bg-white: #fff;
+  --color-bg-blue: #406080;
+  --color-sky-blue: #406080;
+  --color-dark-blue: #203040;
+  --color-ice: #dae0e6;
+  --color-granite: #b1bcc4;
+
+  --spacingS: max(40px, 2.76vw);
+  --spacingM: max(120px, 8.34vw);
+  --spacingL: max(200px, 13.9vw);
+}
+/* 폰트 */
+.fz_small {
+  font-size: max(15px, 1.04vw);
+  line-height: max(25px, 1.73vw);
+}
+.fz_large {
+  font-size: max(21px, 2.5vw);
+  line-height: 1.39;
+}
+.fz_xlarge {
+  font-size: max(51px, 6.67vw);
+  font-weight: 400;
+  line-height: 1.041;
+  letter-spacing: 0;
+}
+/* 백그라운드 컬러 - 그레이 */
+.bg_grey {
+  background-color: var(--color-bg-grey);
+}
+
+
+/* 이미지 노이즈 효과 */
+.lofi {
+  position: absolute;
+  right: -25%;
+  bottom: -25%;
+  width: 150%;
+  height: 150%;
+  background: transparent url('../image/noise.png') repeat 0 0;
+  animation: noise .2s infinite;
+  opacity: .13;
+}
+@keyframes noise {
+  0% { transform: translate(0, 0) }
+  10% { transform: translate(-5%, -5%) }
+  20% { transform: translate(-10%, 5%) }
+  30% { transform: translate(5%, -10%) }
+  40% { transform: translate(-5%, 15%) }
+  50% { transform: translate(-10%, 5%) }
+  60% { transform: translate(15%, 0) }
+  70% { transform: translate(0, 10%) }
+  80% { transform: translate(-15%, 0) }
+  90% { transform: translate(10%, 5%) }
+  100% { transform: translate(5%, 0) }
+}
+
+
+/* 이미지 스크롤 애니메이션 */
+.img_motion {
+  overflow: hidden;
+  position: relative;
+}
+.img_motion img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* 로딩 이미지 */
+/* .loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  z-index: 9;
+  visibility: hidden;
+} */

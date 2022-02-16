@@ -1,0 +1,51 @@
+/* 폰트 - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap'); 
+
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+
+.inner {
+  /* width: 1620px; */
+  padding: 0 30px;
+}
+
+
+/* 마우스 포인터 */
+.swiper * {
+  cursor: none;
+}
+.mouse_pointer {
+  background: #fff;
+  border: 1px solid #191919;
+  box-sizing: content-box;
+  border-radius: 50px;
+  padding: 13px 35px 13px;
+  text-align: center;
+  position: fixed;
+  z-index: 9999;
+  display: none;
+  pointer-events: none;
+  /* transform: scale(12); */
+  /* transform-origin: 50% 50%; */
+}
+.mouse_pointer span {
+  font-family: "RecoletaAlt-SemiBold", serif;
+  font-size: 20px;
+}
+.mouse_pointer.show {
+  display: block;
+  /* transform: scale(12); */
+}
+/* .mouse_pointer.change {
+  background: #191919;
+  color: #fff;
+  padding: 13px 70px 13px;
+  transition: .4s;
+} */

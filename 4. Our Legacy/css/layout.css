@@ -1,0 +1,244 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fdfbf5;
+  color: #191919;
+  min-width: 1500px;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* 헤더 */
+header {
+  background: #fdfbf5;
+  width: 100%;
+  height: 61px;
+  border-bottom: 1px solid #191919;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  font-weight: 700;
+  min-width: 1500px;
+  z-index: 10;
+}
+header .inner {
+  height: 100%;
+}
+
+/* 로고 영역 */
+header .logo_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+header .logo_wrap h1 {
+  display: block;
+  width: 96.4vw;
+  height: 10vh;
+  position: fixed;
+  top: 80px;
+}
+header .logo_wrap h1 a {
+  display: block;
+  height: 100%;
+}
+header .logo_wrap h1 svg {
+  fill: #191919;
+}
+header .logo_wrap .gnb {
+  display: flex;
+  font-size: 17px;
+  /* margin-left: 275px; */
+}
+header .logo_wrap .gnb li {
+  padding: 7px 6px;
+}
+header .logo_wrap .gnb li a {
+  padding: 5px 13px 6px;
+  transition: .3s;
+}
+header .logo_wrap .gnb li a:hover {
+  color: #f9b510;
+  transition: .2s ease-out;
+}
+header .logo_wrap .util_area {
+  display: flex;
+}
+header .logo_wrap .util_area a {
+  display: block;
+  padding: 12px 10px;
+}
+header .logo_wrap .util_area .btn_search i {
+  display: block;
+  background: url('../image/menu-search.svg') no-repeat;
+  background-size: 100%;
+  width: 12.3px;
+  height: 12.3px;
+}
+header .logo_wrap .util_area .btn_account i {
+  display: block;
+  background: url('../image/menu-user.svg') no-repeat;
+  background-size: 100%;
+  width: 12.22px;
+  height: 12.3px;
+}
+header .logo_wrap .util_area .btn_wishlist i {
+  display: block;
+  background: url('../image/menu-heart.svg') no-repeat;
+  background-size: 100%;
+  width: 13.88px;
+  height: 12.3px;
+}
+header .logo_wrap .util_area .btn_cart {
+  position: relative;
+}
+header .logo_wrap .util_area .btn_cart i {
+  display: block;
+  background: url('../image/menu-shopping-bag.svg') no-repeat;
+  background-size: 100%;
+  width: 9.81px;
+  height: 12.3px;
+}
+header .logo_wrap .util_area .btn_cart span {
+  background: #191919;
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  font-size: 5px;
+  position: absolute;
+  top: 3px;
+  right: 0;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 14px;
+  transition: .3s;
+}
+header .logo_wrap .util_area .btn_cart:hover span {
+  background: #f9b510;
+  transition: .3s;
+}
+
+
+/* 푸터 */
+footer {
+  background: #fec333;
+  margin-top: 80px;
+  font-family: "OpenSans-Regular", sans-serif;
+}
+
+/* 상단 */
+footer .footer_top {
+  padding-top: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_top .newsletter {
+  width: 990px;
+  margin-bottom: 49px;
+}
+footer .footer_top .newsletter p {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+}
+footer .footer_top .newsletter input {
+  width: 286px;
+  border-radius: 2px;
+  padding: 0px 0px 0px 16px;
+  height: 38px;
+  text-align: left;
+  color: rgb(25, 25, 25);
+  font-family: "RecoletaAlt-Regular", serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+footer .footer_top .newsletter button {
+  background: rgba(48, 59, 67, 0);
+  border-radius: 0px;
+  border-style: none;
+  border-color: rgb(0, 0, 0);
+  border-width: 0px;
+  color: rgb(255, 255, 255);
+  font-family: "RecoletaAlt-Regular", serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 1;
+  white-space: normal;
+  padding: 11px 10px;
+  text-align: center;
+  word-break: break-word;
+  align-self: flex-end;
+  cursor: pointer;
+}
+footer .footer_top .footer_menu_area {
+  display: flex;
+}
+footer .footer_top .footer_menu_area ul {
+  font-size: 14px;
+  width: 210px;
+}
+footer .footer_top .footer_menu_area ul li {
+  height: 30px;
+  line-height: 30px;
+  transition: 1s;
+}
+footer .footer_top .footer_menu_area ul li a {
+  padding: 3px 9px 2px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  transition: .2s ease-out;
+  margin-bottom: 7px;
+}
+footer .footer_top .footer_menu_area ul li a:hover {
+  border-color: #191919;
+  transition: .2s ease-out;
+}
+footer .footer_top .footer_menu_area .footer_menu, footer .footer_top .footer_menu_area .footer_menu2 {
+  width: 218px;
+}
+footer .footer_top .footer_menu_area .footer_menu3 {
+  width: 180px;
+}
+
+/* 푸터 로고 */
+footer h2 {
+  margin: 55px 0 75px;
+}
+footer h2 .footer_logo {
+  display: block;
+}
+footer svg {
+  fill: #fff;
+}
+
+/* 하단 */
+footer .footer_bottom {
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_bottom .copyright {
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+footer .footer_bottom .sns_link_area {
+  display: flex;
+  gap: 2.2rem;
+}
+footer .footer_bottom .sns_link_area a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 3px 9px 2px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  transition: .2s ease-out;
+  margin-bottom: 7px;
+}
+footer .footer_bottom .sns_link_area a:hover {
+  border-color: #191919;
+  transition: .2s ease-out;
+}

@@ -1,0 +1,310 @@
+body {
+  background: transparent;
+  font-family: 'Nanum Gothic';
+  font-size: 14px;
+  font-weight: 400;
+  color: #222;
+  font-style: normal;
+  line-height: 1.35em;
+}
+
+
+/* 헤더 상단 */
+header .header_top {
+  overflow: hidden;
+  height: 48px;
+  line-height: 48px;
+}
+header .header_top a:hover {
+  color: #2292E9;
+}
+header .header_top h1 {
+  background-position: -5px -165px;
+  width: 105px; height: 27px;
+  float: left;
+  padding-right: 40px;
+  margin-top: 8px;
+}
+header .header_top h1 a {
+  display: block;
+  height: 100%;
+}
+header .header_top .gnb {
+  font-size: 16px;
+  font-weight: 700;
+}
+header .header_top .gnb li {
+  float: left;
+  margin-left: 20px;
+}
+header .header_top .util_wrap {
+  float: right;
+  font-weight: 700;
+}
+header .header_top .util_wrap a {
+  padding: 0 10px;
+}
+
+/* 헤더 하단 */
+header .header_bottom {
+  position: relative;
+  height: 119px;
+}
+/* 로고 */
+header .header_bottom h1 {
+  background-position: 0 0;
+  width: 178px; height: 51px;
+  margin: 38px 0 30px;
+  display: inline-block;
+}
+header .header_bottom h1 a {
+  display: block;
+  height: 100%;
+}
+/* 검색창 */
+header .header_bottom .srh {
+  position: absolute;
+  top: 40px; left: 50%;
+  margin-left: -245px;
+  width: 460px; height: 42px;
+  border: 3px solid #2292e9;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+header .header_bottom .srh .srh_txt {
+  float: left;
+  width: calc(100% - 42px);
+  border: 0;
+  padding: 0;
+  height: 36px;
+  line-height: 36px;
+}
+header .header_bottom .srh .srh_txt::placeholder {
+  font-family: 'Nanum Gothic';
+  color: #2292e9;
+  padding: 10px;
+}
+header .header_bottom .srh button {
+  border: 0;
+  background: none;
+  float: right;
+  padding: 0;
+}
+header .header_bottom .srh .btn_keyboard {
+  margin-left: 3px;
+  vertical-align: middle;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 42px;
+}
+header .header_bottom .srh button .btn_search {
+  background-position: -32px -97px;
+  width: 36px; height: 36px;
+  display: inline-block;
+}
+/* 언어별 사이트 */
+header .header_bottom .set_lang {
+  position: absolute;
+  top: 0; right: 0;
+  width: 110px; height: 21px;
+}
+header .header_bottom .set_lang select {
+  float: left;
+  width: 80px;
+  height: 21px;
+  border-color: #afcfea;
+  color: #1E6CB3;
+  font-size: 12px;
+  padding: 0 0 0 2px;
+  box-sizing: border-box;
+  line-height: 21px;
+  background: 9px url('../images/ico/ico_select-box-drop.png') no-repeat;
+  background-position: right 3px center;
+  background-size: 9px;
+}
+header .header_bottom .set_lang button {
+  background: #1e6cb3;
+  float: left;
+  width: 30px;
+  font-size: 11px;
+  color: #fff;
+  border: 0;
+  height: 21px;
+  display: inline-block;
+  padding: 0;
+}
+/* 날씨 */
+header .header_bottom .weather_area {
+  float: right;
+  width: 272px;
+  height: 85px;
+  margin-top: 34px;
+  vertical-align: top;
+  text-align: right;
+}
+header .header_bottom .weather_area .ico_weather {
+  float: left;
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 3px;
+}
+header .header_bottom .weather_area .temp_wrap {
+  max-width: 252px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+header .header_bottom .weather_area .temp_wrap .temp {
+  text-align: left;
+}
+header .header_bottom .weather_area .temp_wrap .temp strong {
+  font-size: 25px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+header .header_bottom .weather_area .temp_wrap .temp span {
+  font-size: 16px;
+  letter-spacing: -0.1em;
+}
+header .header_bottom .weather_area .temp_wrap .dust {
+  margin-top: 7px;
+}
+header .header_bottom .weather_area .temp_wrap .dust span {
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+
+
+/* 푸터 상단 */
+footer .footer_top {
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  height: 15px;
+  position: relative;
+}
+footer .footer_top a {
+  display: block;
+}
+footer .footer_top .link_wrap {
+  float: left;
+}
+footer .footer_top .link_wrap a {
+  float: left;
+  font-size: 12px;
+  color: #636363;
+  padding: 0 10px;
+  line-height: 12px;
+}
+footer .footer_top .link_wrap a:first-of-type {
+  padding-left: 0;
+}
+footer .footer_top .link_wrap a.policy {
+  color: #000;
+  font-weight: 700;
+}
+footer .footer_top .link_wrap .bar {
+  width: 1px; height: 14px;
+  background: #dcdcdc;
+  display: block;
+  float: left;
+}
+footer .footer_top .sns_wrap {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+footer .footer_top .sns_wrap a {
+  float: left;
+  margin-left: 12px;
+}
+footer .footer_top .sns_wrap a i.facebook {
+  background-position: -25px 0;
+}
+footer .footer_top .sns_wrap a i.facebook:hover {
+  background-position: -25px -25px;
+}
+footer .footer_top .sns_wrap a i.twitter {
+  background-position: -50px 0;
+}
+footer .footer_top .sns_wrap a i.twitter:hover {
+  background-position: -50px -25px;
+}
+footer .footer_top .sns_wrap a i.insta {
+  background-position: -75px 0;
+}
+footer .footer_top .sns_wrap a i.insta:hover {
+  background-position: -75px -25px;
+}
+footer .footer_top .sns_wrap a i.kakao {
+  background-position: -100px 0;
+}
+footer .footer_top .sns_wrap a i.kakao:hover {
+  background-position: -100px -25px;
+}
+footer .footer_top .sns_wrap a i.youtube {
+  background-position: -125px 0;
+}
+footer .footer_top .sns_wrap a i.youtube:hover {
+  background-position: -125px -25px;
+}
+footer .footer_top .sns_wrap a i.blog {
+  background-position: -150px 0;
+}
+footer .footer_top .sns_wrap a i.blog:hover {
+  background-position: -150px -25px;
+}
+
+/* 푸터 상단 */
+footer .footer_bottom {
+  padding: 22px 0;
+  overflow: hidden;
+}
+footer .footer_bottom h2 {
+  background-position: -180px 0;
+  width: 108px; height: 45px;
+  margin-right: 40px;
+  float: left;
+}
+/* 주소/카피라이트 */
+footer .footer_bottom .info {
+  color: #636363;
+  float: left;
+}
+footer .footer_bottom .info address {
+  font-size: 12px;
+}
+footer .footer_bottom .info address a.seoultalk {
+  font-size: 11px !important;
+  display: inline-block;
+  margin-left: 4px;
+  padding: 3px 5px 2px 1px;
+  border: 1px solid #c8c8c8;
+  border-radius: 12px;
+  background-size: 16px auto;
+  font-weight: 600;
+  line-height: 18px;
+}
+footer .footer_bottom .info address a.seoultalk::before {
+  background: #fff url('../images/ico/ico_seoultalk.png') no-repeat;
+  display: inline-block;
+  background-size: contain;
+  width: 15px; height: 17px;
+  content: "";
+  vertical-align: top;
+  margin-left: 4px;
+  margin-right: 2px;
+}
+footer .footer_bottom .info p.copy {
+  font-size: 11px;
+}
+/* 인증마크 */
+footer .footer_bottom .web_accessibility {
+  float: right;
+}
+footer .footer_bottom .web_accessibility a.mark2 {
+  margin-left: 10px;
+}

@@ -1,0 +1,120 @@
+header {
+
+  /* 스모크 효과 */
+  // .gnb {
+  //   a {
+  //     div {
+  //       display: flex;
+  //       span {
+  //         display: block;
+  //         $i: 1;
+  //         @while $i < 17 {
+  //             &:nth-child(#{$i}) {
+  //                 --d: #{$i / 20 + s};
+  //             }
+  //             $i: $i + 1;
+  //         }
+  //       }
+  //     }
+  //     &:hover {
+  //       --duration: .5s;
+  //       span {
+  //           animation: move var(--duration) linear var(--d);
+  //       }
+  //   }
+  //   &.smoke {
+  //       --move: 12px;
+  //       --move-y: -10px;
+  //       --blur: 4px;
+  //       &:hover {
+  //           span {
+  //               --duration: 1s;
+  //               animation: smoke var(--duration) linear var(--d);
+  //           }
+  //       }
+  //     }
+  //   }
+  // }
+
+  /* 시안과 같은 효과 */
+  .gnb {
+    a {
+      // --text: #dae0e6;
+      // --font-size: 31px;
+      // --font-shadow: 62px;
+      // --duration: .01s;
+
+      // transition: transform var(--duration) ease;
+      div {
+          display: flex;
+          justify-content: center;
+          overflow: hidden;
+          // text-shadow: 0 var(--font-size) 0 var(--text);
+          text-shadow: 0 40px 0 #dae0e6;
+          span {
+              display: block;
+              // transition: transform var(--duration) ease;
+              $i: 1;
+              @while $i < 17 {
+                  &:nth-child(#{$i}) {
+                      transition-delay: $i / 90 + s;
+                  }
+                  $i: $i + 1;
+              }
+          }
+      }
+    }
+  }
+
+
+  .m_menu_list {
+    a {
+      // --text: #dae0e6;
+      // --font-size: 31px;
+      // --font-shadow: 62px;
+      // --duration: .01s;
+
+      // transition: transform var(--duration) ease;
+      div {
+          display: flex;
+          justify-content: center;
+          overflow: hidden;
+          // text-shadow: 0 var(--font-size) 0 var(--text);
+          text-shadow: 0 40px 0 #dae0e6;
+          span {
+              display: block;
+              // transition: transform var(--duration) ease;
+              $i: 1;
+              @while $i < 17 {
+                  &:nth-child(#{$i}) {
+                      transition-delay: $i / 80 + s;
+                  }
+                  $i: $i + 1;
+              }
+          }
+      }
+    }
+  }
+  
+}
+
+// @keyframes smoke {
+//   45%,
+//   55% {
+//       filter: blur(var(--blur));
+//   }
+//   50%,
+//   50.1% {
+//       opacity: 0;
+//   }
+//   25%,
+//   75% {
+//       transform: translateX(0);
+//   }
+//   50% {
+//       transform: translateX(var(--move)) translateY(var(--move-y));
+//   }
+//   50.1% {
+//       transform: translateX(calc(var(--move) * -1));
+//   }
+// }
