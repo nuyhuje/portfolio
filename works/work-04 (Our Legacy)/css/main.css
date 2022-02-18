@@ -61,7 +61,7 @@
   transform: scale(1.02);
 }
 .main_slide .swiper-wrapper .swiper-slide p {
-  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+  font-family: "dharma-gothic-e", sans-serif;
   position: absolute;
   left: 35px;
   bottom: 30px;
@@ -81,7 +81,7 @@
 .product_list .content_title h2 {
   display: block;
   font-size: 350px;
-  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+  font-family: "dharma-gothic-e", sans-serif;
 }
 .product_list .content_slide {
   border-top: 1px solid #191919;
@@ -126,7 +126,7 @@
 }
 .product_list .content_slide .swiper-slide .info .item {
   font-size: 46px;
-  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+  font-family: "dharma-gothic-e", sans-serif;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -215,7 +215,7 @@
   font-size: 110px;
   margin: 27px 0 24px;
   transition: .3s;
-  font-family: "DharmaGothicE-ExBold", condensed, sans-serif;
+  font-family: "dharma-gothic-e", sans-serif;
 }
 .single_product .info .item:hover {
   color: #f9b510;
@@ -256,7 +256,7 @@
   height: 320px;
   font-size: 350px;
   color: #fec333;
-  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+  font-family: "dharma-gothic-e", sans-serif;
 }
 
 /* 버튼 효과 */
@@ -364,7 +364,7 @@
   font-size: 37px;
   margin-top: 18px;
   transition: .3s;
-  font-family: "DharmaGothicE-Bold", condensed, sans-serif;
+  font-family: "dharma-gothic-e", sans-serif;
 }
 .collections ul li .txt_area:hover {
   color: #fec333;

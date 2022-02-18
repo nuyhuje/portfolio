@@ -1,29 +1,3 @@
-/* Dharma Gothic E */
-@font-face {
-  font-family: 'DharmaGothicE - Bold';
-  src: url('../font/DharmaGothicE-Bold.eot');
-  src: url('../font/DharmaGothicE-Bold.eot?#iefix') format('embedded-opentype'),
-       url('../font/DharmaGothicE-Bold.svg#DharmaGothicE-Bold') format('svg'),
-       url('../font/DharmaGothicE-Bold.ttf') format('truetype'),
-       url('../font/DharmaGothicE-Bold.woff') format('woff'),
-       url('../font/DharmaGothicE-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Dharma Gothic E - Extra Bold';
-  src: url('../font/DharmaGothicE-ExBold.eot');
-  src: url('../font/DharmaGothicE-ExBold.eot?#iefix') format('embedded-opentype'),
-       url('../font/DharmaGothicE-ExBold.svg#DharmaGothicE-ExBold') format('svg'),
-       url('../font/DharmaGothicE-ExBold.ttf') format('truetype'),
-       url('../font/DharmaGothicE-ExBold.woff') format('woff'),
-       url('../font/DharmaGothicE-ExBold.woff2') format('woff2');
-  font-weight: 900;
-  font-style: normal;
-}
-
-
 /* Recoleta Alt */
 @font-face {
   font-family: 'Recoleta Alt - Regular';
