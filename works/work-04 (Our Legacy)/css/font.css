@@ -2,8 +2,8 @@
 @font-face {
   font-family: 'Recoleta Alt - Regular';
   src: url('../font/RecoletaAlt-Regular.eot');
-  src: url('../font/RecoletaAlt-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../font/RecoletaAlt-Regular.svg#RecoletaAlt-Regular') format('svg'),
+  src: url('../font/RecoletaAlt-Regular.eot') format('embedded-opentype'),
+       url('../font/RecoletaAlt-Regular.svg') format('svg'),
        url('../font/RecoletaAlt-Regular.ttf') format('truetype'),
        url('../font/RecoletaAlt-Regular.woff') format('woff'),
        url('../font/RecoletaAlt-Regular.woff2') format('woff2');
