@@ -10,7 +10,7 @@
 }
 
 @font-face {
-  font-family: 'Whyte Inktrap - Regular';
+  font-family: 'Whyte Inktrap';
   src: local('Whyte Inktrap Regular'), local('Whyte-Inktrap-Regular'),
       url('../font/WhyteInktrap-Regular.woff2') format('woff2'),
       url('../font/WhyteInktrap-Regular.woff') format('woff'),

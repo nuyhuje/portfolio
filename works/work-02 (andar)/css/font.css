@@ -1,6 +1,6 @@
 /* Gilroy */
 @font-face {
-  font-family: 'Gilroy - Regular';
+  font-family: 'Gilroy';
   src: url('../fonts/Gilroy-Regular.eot');
   src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
        url('../fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: 'Gilroy - Medium';
+  font-family: 'Gilroy';
   src: url('../fonts/Gilroy-Medium.eot');
   src: url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
        url('../fonts/Gilroy-Medium.svg#Gilroy-Medium') format('svg'),
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-  font-family: 'Gilroy - Semi Bold';
+  font-family: 'Gilroy';
   src: url('../fonts/Gilroy-SemiBold.eot');
   src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
        url('../fonts/Gilroy-SemiBold.svg#Gilroy-SemiBold') format('svg'),
@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: 'Gilroy - Bold';
+  font-family: 'Gilroy';
   src: url('../fonts/Gilroy-Bold.eot');
   src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
        url('../fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg'),

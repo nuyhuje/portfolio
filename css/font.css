@@ -1,6 +1,6 @@
 /* Neue Montreal */
 @font-face {
-  font-family: 'Neue Montreal - Light';
+  font-family: 'Neue Montreal';
   src: url('../font/NeueMontreal-Light.eot');
   src: url('../font/NeueMontreal-Light.eot?#iefix') format('embedded-opentype'),
        url('../font/NeueMontreal-Light.svg#NeueMontreal-Light') format('svg'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: 'Neue Montreal - Light Italic';
+  font-family: 'Neue Montreal';
   src: url('../font/NeueMontreal-LightItalic.eot');
   src: url('../font/NeueMontreal-LightItalic.eot?#iefix') format('embedded-opentype'),
        url('../font/NeueMontreal-LightItalic.svg#NeueMontreal-LightItalic') format('svg'),
@@ -20,11 +20,11 @@
        url('../font/NeueMontreal-LightItalic.woff') format('woff'),
        url('../font/NeueMontreal-LightItalic.woff2') format('woff2');
   font-weight: 300;
-  font-style: normal;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: 'Neue Montreal - Regular';
+  font-family: 'Neue Montreal';
   src: url('../font/NeueMontreal-Regular.eot');
   src: url('../font/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
        url('../font/NeueMontreal-Regular.svg#NeueMontreal-Regular') format('svg'),
@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: 'Neue Montreal - Italic';
+  font-family: 'Neue Montreal';
   src: url('../font/NeueMontreal-Italic.eot');
   src: url('../font/NeueMontreal-Italic.eot?#iefix') format('embedded-opentype'),
        url('../font/NeueMontreal-Italic.svg#NeueMontreal-Italic') format('svg'),
@@ -44,11 +44,11 @@
        url('../font/NeueMontreal-Italic.woff') format('woff'),
        url('../font/NeueMontreal-Italic.woff2') format('woff2');
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: 'Neue Montreal - Medium';
+  font-family: 'Neue Montreal';
   src: url('../font/NeueMontreal-Medium.eot');
   src: url('../font/NeueMontreal-Medium.eot?#iefix') format('embedded-opentype'),
        url('../font/NeueMontreal-Medium.svg#NeueMontreal-Medium') format('svg'),
@@ -60,7 +60,7 @@
 }
 
 @font-face {
-  font-family: 'Neue Montreal - Medium Italic';
+  font-family: 'Neue Montreal';
   src: url('../font/NeueMontreal-MediumItalic.eot');
   src: url('../font/NeueMontreal-MediumItalic.eot?#iefix') format('embedded-opentype'),
        url('../font/NeueMontreal-MediumItalic.svg#NeueMontreal-MediumItalic') format('svg'),
@@ -68,11 +68,11 @@
        url('../font/NeueMontreal-MediumItalic.woff') format('woff'),
        url('../font/NeueMontreal-MediumItalic.woff2') format('woff2');
   font-weight: 500;
-  font-style: normal;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: 'Neue Montreal - Bold';
+  font-family: 'Neue Montreal';
   src: url('../font/NeueMontreal-Bold.eot');
   src: url('../font/NeueMontreal-Bold.eot?#iefix') format('embedded-opentype'),
        url('../font/NeueMontreal-Bold.svg#NeueMontreal-Bold') format('svg'),
@@ -84,7 +84,7 @@
 }
 
 @font-face {
-  font-family: 'Neue Montreal - Bold Italic';
+  font-family: 'Neue Montreal';
   src: url('../font/NeueMontreal-BoldItalic.eot');
   src: url('../font/NeueMontreal-BoldItalic.eot?#iefix') format('embedded-opentype'),
        url('../font/NeueMontreal-BoldItalic.svg#NeueMontreal-BoldItalic') format('svg'),
@@ -92,5 +92,5 @@
        url('../font/NeueMontreal-BoldItalic.woff') format('woff'),
        url('../font/NeueMontreal-BoldItalic.woff2') format('woff2');
   font-weight: 700;
-  font-style: normal;
+  font-style: italic;
 }

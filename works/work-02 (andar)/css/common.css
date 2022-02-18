@@ -63,25 +63,25 @@ strong {
 }
 /* 할인율 */
 .sale {
-  color: #8E1F29 !important;
-  font-size: 15px !important;
+  color: #8E1F29;
+  font-size: 15px;
   line-height: 16px;
   letter-spacing: -0.03em;
 }
 /* 정가, 할인가 */
 .price1 {
-  font-size: 15px !important;
+  font-size: 15px;
   line-height: 16px;
   font-weight: 500;
   letter-spacing: -0.03em;
-  font-family: 'Gilroy','NotoSansKR',sans-serif;
+  font-family: 'Gilroy', 'NotoSansKR', sans-serif;
   margin-left: 5px;
 }
 /* 할인전 가격 */
 .price2 {
-  line-height: 18px !important;
-  font-weight: 400 !important;
-  color: #8d8d8d !important;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8d8d8d;
   letter-spacing: -0.03em;
   margin-left: 5px;
   text-decoration: line-through;
@@ -164,7 +164,7 @@ strong {
   box-sizing: border-box;
   padding: 5px 6px;
   color: #8e1f28;
-  font-size: 9px !important;
+  font-size: 9px;
   line-height: 9px;
   font-weight: 500;
   letter-spacing: -0.05em;

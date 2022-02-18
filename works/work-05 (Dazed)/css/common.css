@@ -1,4 +1,4 @@
-/* Font - Poppins */
+/* 폰트 "Poppins" */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 .blind {
@@ -16,7 +16,7 @@
 
 :root{
   --font-primary: "Whyte Inktrap", sans-serif;
-  --font-sub: 'Poppins', sans-serif;
+  --font-sub: "Poppins", sans-serif;
   --color-white: #fff;
   --color-black: #000;
   --color-grey: #222;

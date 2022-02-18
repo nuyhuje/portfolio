@@ -140,8 +140,9 @@
   text-overflow: ellipsis;
 }
 .product_list .content_slide .swiper-slide .info .price {
-  font-family: "RecoletaAlt-SemiBold", serif;
   font-size: 24px;
+  font-family: "Recoleta Alt", serif;
+  font-weight: 600;
   margin-top: 5px;
 }
 /* 슬라이드 - 사이즈 */
@@ -159,8 +160,9 @@
   display: none;
 }
 .product_list .content_slide .swiper-slide .info_size span {
-  font-family: "RecoletaAlt-SemiBold", serif;
+  font-family: "Recoleta Alt", serif;
   font-size: 24px;
+  font-weight: 600;
 }
 .product_list .content_slide .swiper-slide .info_size .soldout {
   color: #ccc;
@@ -177,10 +179,11 @@
   display: block;
   height: 100%;
   font-size: 45px;
+  font-family: "Recoleta Alt", serif;
+  font-weight: 600;
   line-height: 658px;
   text-align: center;
   text-decoration: underline;
-  font-family: "RecoletaAlt-SemiBold", serif;
 }
 .product_list .content_slide .slide_all a:hover {
   color: #fec333;
@@ -230,9 +233,10 @@
   transition: color .2s ease-out;
 }
 .single_product .info .price {
-  font-family: "RecoletaAlt-SemiBold", serif;
   width: 100%;
   font-size: 24px;
+  font-family: "Recoleta Alt", serif;
+  font-weight: 600;
   margin-bottom: 28px;
 }
 .single_product .img_area {
@@ -276,8 +280,9 @@
   width: 160px;
   height: 48px;
   background: #fec333;
-  font-family: "RecoletaAlt-SemiBold", serif;
+  font-family: "Recoleta Alt", serif;
   font-size: 20px;
+  font-weight: 600;
   border: 1px solid #191919;
   border-radius: 50px;
   margin-bottom: 40px;
@@ -373,7 +378,8 @@
   top: 15px;
   right: 20px;
   font-size: 20px;
-  font-family: "RecoletaAlt-SemiBold", serif;
+  font-family: "Recoleta Alt", serif;
+  font-weight: 600;
 }
 .collections ul li .txt_area {
   display: block;

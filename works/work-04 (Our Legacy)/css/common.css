@@ -1,8 +1,7 @@
-/* 폰트 - Open Sans */
+/* 폰트 "Open Sans" */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-/* 폰트 - Dharma Gothic E */
+/* 폰트 "Dharma Gothic E" */
 @import url("https://use.typekit.net/tqt4dih.css");
-
 
 .blind {
   position: absolute;
@@ -19,7 +18,7 @@
 }
 
 
-/* 마우스 포인터 */
+/* Mouse Pointer */
 .swiper * {
   cursor: none;
 }
@@ -38,8 +37,9 @@
   /* transform-origin: 50% 50%; */
 }
 .mouse_pointer span {
-  font-family: "RecoletaAlt-SemiBold", serif;
+  font-family: "Recoleta Alt", serif;
   font-size: 20px;
+  font-weight: 600;
 }
 .mouse_pointer.show {
   display: block;

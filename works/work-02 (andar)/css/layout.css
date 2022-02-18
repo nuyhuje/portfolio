@@ -1,11 +1,11 @@
 body {
   min-width: 320px;
-  word-break: break-all;
-  -webkit-text-size-adjust: none;
   font-family: 'Gilroy', 'NotoSansKR', 'Malgun Gothic', '맑은 고딕', 'Dotum', '돋움', sans-serif;
   font-size: 13px;
   line-height: 1.2em;
   color: #333;
+  word-break: break-all;
+  -webkit-text-size-adjust: none;
 }
 
 
@@ -162,10 +162,10 @@ header .gnb_wrap.white .gnb_menu {
 header .gnb_wrap .gnb_menu .menu_slide {
   width: calc(100% - 30px);
   font-size: 16px;
+  font-weight: 400;
+  color: #333;
   line-height: 23px;
   letter-spacing: -0.05em;
-  color: #333;
-  font-weight: 400;
   margin: 0;
   height: 45px;
   box-sizing: border-box;
@@ -321,7 +321,7 @@ header .gnb_wrap .aside .aside_top .login_area .join {
   float: left;
   background: #fff;
   border: 1px solid #ccc;
-  color: #333 !important;
+  color: #333;
   font-weight: 500;
   margin-left: 12px;
 }
