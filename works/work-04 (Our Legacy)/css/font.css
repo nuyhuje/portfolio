@@ -1,6 +1,6 @@
 /* Recoleta Alt */
 @font-face {
-  font-family: 'Recoleta Alt - Regular';
+  font-family: 'RecoletaAlt-Regular';
   src: url('../font/RecoletaAlt-Regular.eot');
   src: url('../font/RecoletaAlt-Regular.eot') format('embedded-opentype'),
        url('../font/RecoletaAlt-Regular.svg') format('svg'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: 'Recoleta Alt - Medium';
+  font-family: 'RecoletaAlt-Medium';
   src: url('../font/RecoletaAlt-Medium.eot');
   src: url('../font/RecoletaAlt-Medium.eot?#iefix') format('embedded-opentype'),
        url('../font/RecoletaAlt-Medium.svg#RecoletaAlt-Medium') format('svg'),
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-  font-family: 'Recoleta Alt - Semi Bold';
+  font-family: 'RecoletaAlt-SemiBold';
   src: url('../font/RecoletaAlt-SemiBold.eot');
   src: url('../font/RecoletaAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
        url('../font/RecoletaAlt-SemiBold.svg#RecoletaAlt-SemiBold') format('svg'),
