@@ -124,7 +124,6 @@ header .logo_wrap .util_area .btn_cart:hover span {
 footer {
   background: #fec333;
   margin-top: 80px;
-  font-family: "OpenSans-Regular", sans-serif;
 }
 
 /* 상단 */
@@ -210,7 +209,7 @@ footer .footer_top .footer_menu_area .footer_menu3 {
 
 /* 푸터 로고 */
 footer h2 {
-  margin: 40px 0 68px;
+  margin: 32px 0 68px;
 }
 footer h2 .footer_logo {
   display: block;
@@ -221,6 +220,7 @@ footer svg {
   height: 219px;
 }
 
+
 /* 하단 */
 footer .footer_bottom {
   padding-bottom: 36px;
@@ -229,7 +229,7 @@ footer .footer_bottom {
 }
 footer .footer_bottom .copyright {
   font-size: 14px;
-  padding-bottom: 16px;
+  padding-bottom: 17px;
 }
 footer .footer_bottom .sns_link_area {
   display: flex;
