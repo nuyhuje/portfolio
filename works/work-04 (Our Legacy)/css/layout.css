@@ -129,7 +129,7 @@ footer {
 
 /* 상단 */
 footer .footer_top {
-  padding-top: 52px;
+  padding-top: 53px;
   display: flex;
   justify-content: space-between;
 }
@@ -138,9 +138,10 @@ footer .footer_top .newsletter {
   margin-bottom: 49px;
 }
 footer .footer_top .newsletter p {
-  font-size: 36px;
-  margin-bottom: 10px;
-  font-family: "dharma-gothic-e", sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  font-family: "Dharma-Gothic-E", sans-serif;
+  margin-bottom: 14px;
 }
 footer .footer_top .newsletter input {
   width: 286px;
@@ -154,6 +155,9 @@ footer .footer_top .newsletter input {
   letter-spacing: 0px;
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid rgb(0, 0, 0);
+}
+footer .footer_top .newsletter input::placeholder {
+  color: rgb(25, 25, 25);
 }
 footer .footer_top .newsletter button {
   background: rgba(48, 59, 67, 0);
@@ -206,18 +210,20 @@ footer .footer_top .footer_menu_area .footer_menu3 {
 
 /* 푸터 로고 */
 footer h2 {
-  margin: 55px 0 75px;
+  margin: 40px 0 68px;
 }
 footer h2 .footer_logo {
   display: block;
 }
 footer svg {
   fill: #fff;
+  width: 100%;
+  height: 219px;
 }
 
 /* 하단 */
 footer .footer_bottom {
-  padding-bottom: 35px;
+  padding-bottom: 36px;
   display: flex;
   justify-content: space-between;
 }

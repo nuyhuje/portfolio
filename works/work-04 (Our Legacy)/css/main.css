@@ -61,11 +61,12 @@
   transform: scale(1.02);
 }
 .main_slide .swiper-wrapper .swiper-slide p {
-  font-family: "dharma-gothic-e", sans-serif;
+  font-size: 74px;
+  font-weight: 700;
+  font-family: "Dharma-Gothic-E", sans-serif;
   position: absolute;
   left: 35px;
   bottom: 30px;
-  font-size: 50px;
   color: rgb(255, 255, 255);
 }
 .main_slide .swiper-slide .cont1_workshop img {
@@ -81,7 +82,8 @@
 .product_list .content_title h2 {
   display: block;
   font-size: 350px;
-  font-family: "dharma-gothic-e", sans-serif;
+  font-weight: 700;
+  font-family: "Dharma-Gothic-E", sans-serif;
 }
 .product_list .content_slide {
   border-top: 1px solid #191919;
@@ -126,7 +128,8 @@
 }
 .product_list .content_slide .swiper-slide .info .item {
   font-size: 46px;
-  font-family: "dharma-gothic-e", sans-serif;
+  font-weight: 700;
+  font-family: "Dharma-Gothic-E", sans-serif;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -213,9 +216,10 @@
 .single_product .info .item {
   width: 470px;
   font-size: 110px;
+  font-weight: 800;
+  font-family: "Dharma-Gothic-E", sans-serif;
   margin: 27px 0 24px;
-  transition: .3s;
-  font-family: "dharma-gothic-e", sans-serif;
+  transition: .3s
 }
 .single_product .info .item:hover {
   color: #f9b510;
@@ -255,8 +259,9 @@
 .collections .content_title h2 {
   height: 320px;
   font-size: 350px;
+  font-weight: 700;
+  font-family: "Dharma-Gothic-E", sans-serif;
   color: #fec333;
-  font-family: "dharma-gothic-e", sans-serif;
 }
 
 /* 버튼 효과 */
@@ -362,9 +367,10 @@
 .collections ul li .txt_area {
   display: block;
   font-size: 37px;
+  font-weight: 700;
+  font-family: "Dharma-Gothic-E", sans-serif;
   margin-top: 18px;
   transition: .3s;
-  font-family: "dharma-gothic-e", sans-serif;
 }
 .collections ul li .txt_area:hover {
   color: #fec333;
