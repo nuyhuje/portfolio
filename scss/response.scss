@@ -1,0 +1,50 @@
+@import "./mixin";
+
+@include tablet {
+	.title-fixed ul,
+	.project-title ul {
+		font-size: 48px;
+	}
+
+	.section__home {
+		.text-wrapper {
+			left: 150px;
+			font-size: 46px;
+		}
+
+		.cursor {
+			width: 120px;
+			height: 120px;
+			font-size: 14px;
+		}
+	}
+
+	.projects {
+		.subtitle {
+			font-size: 16px;
+			
+			.t2 {
+				width: 10.1vw;
+			}
+		}
+
+	}
+}
+
+@include mobile {
+	.title-fixed ul,
+	.project-title ul {
+		font-size: 30px;
+	}
+
+	.section__home {
+		.text-wrapper {
+			left: 120px;
+			font-size: 36px;
+		}
+
+		.cursor {
+			display: none;
+		}
+	}
+}

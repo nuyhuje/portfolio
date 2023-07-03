@@ -3,6 +3,7 @@ html {
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Neue Montreal", sans-serif;
   /* font-family: "aktiv-grotesk", sans-serif; */
@@ -12,9 +13,7 @@ body {
   overflow-x: hidden;
 }
 
-
-/* Header */
-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -28,7 +27,8 @@ header {
   z-index: 99;
   overflow: hidden;
 }
-header .line {
+
+.header .header__line {
   width: 100%;
   height: 1px;
   background: #fff;
@@ -37,28 +37,27 @@ header .line {
   left: 0;
 }
 
-header .logo {
+.header .header__logo {
   display: block;
-}
-header h1 {
   font-size: 20px;
-  font-weight: 800;
 }
-header .clock {
+
+.header .clock {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 17px;
 }
-header .mode {
+
+.header .mode {
   display: block;
 }
-header .mode a {
+.header .mode > a {
   display: block;
   padding: 10px 0;
 }
-header .mode svg {
+.header .mode svg {
   display: block;
   height: 1.73913vh;
   width: 2.82609vh;
@@ -66,18 +65,19 @@ header .mode svg {
   stroke: none;
   margin-left: 10px;
 }
-header .mode svg circle {
+.header .mode .mode__circle {
   fill: none;
   transition: .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-header .mode svg .circle_1 {
+.header .mode .mode__circle--01 {
   fill: currentColor;
   transform: translateX(-5px);
 }
-header .mode svg .circle_2 {
+.header .mode .mode__circle--02 {
   stroke: currentColor;
   transform: translateX(5px);
 }
-header a:hover .circle_1, header a:hover .circle_2  {
+.header a:hover .mode__circle--01,
+.header a:hover .mode__circle--02  {
   transform: translateX(0);
 }

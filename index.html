@@ -4,101 +4,100 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio by nuyhuje</title>
+  <title>by nuyhuje</title>
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="scss/response.css">
 </head>
 <body class="system">
-  <header class="system">
-    <a href="mailto:xkzln@naver.com" class="logo" target="_blank" alt="contact">
+  <header class="header system">
+    <a href="mailto:xkzln@naver.com" class="header__logo" target="_blank" alt="contact to an email">
       <h1>nuyhuje</h1>
-    </a><!-- //logo -->
-
+    </a>
     <div class="clock">
-      <span class="locaiton">Seoul</span>
-      <span id="time">Time</span>
-      <span id="apm">APM</span>
-    </div><!-- //clock -->
-
+      <span class="clock__locaiton">Seoul</span>
+      <span id="clock__time">Time</span>
+      <span id="clock__format">APM</span>
+    </div>
     <div class="mode">
       <a href="#" onclick="return false;">
         <svg viewBox="0 0 26 16" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="13" cy="8" r="7" class="circle_1"></circle>
-          <circle cx="13" cy="8" r="7" stroke-width="1" class="circle_2"></circle>
+          <circle cx="13" cy="8" r="7" class="mode__circle mode__circle--01"></circle>
+          <circle cx="13" cy="8" r="7" stroke-width="1" class="mode__circle mode__circle--02"></circle>
         </svg>
         <span class="blind">Dark/Light Mode Button</span>
       </a>
-    </div><!-- //mode -->
-
-    <span class="line system"></span>
-  </header><!-- //header -->
+    </div>
+    <span class="header__line system"></span>
+  </header>
+  <!-- // .header -->
 
   <main>
-    <div class="fixed_title system">
-      <ul>
-        <li>
-          <h2>Latest Project</h2>
-          <em>1</em>
+    <div class="title-fixed system">
+      <ul class="title-fixed__wrapper">
+        <li class="title-fixed__list">
+          <h2 class="project-title">Latest Project</h2>
+          <em class="project-number">1</em>
         </li>
       </ul>
-    </div><!-- //fixed_title -->
-
+    </div>
+    <!-- // .title-fixed -->
     <div class="container" >
       <div class="section">
-        <div class="home">
-          <div class="img_wrap">
-            <img src="image/project-dazed-03.jpg" alt="Dazed">
+        <div class="section__home">
+          <div class="image-wrapper">
+            <img src="image/project-dazed-02.jpg" alt="Dazed">
           </div>
-          <div class="txt_area">
-            <h2>Dazed</h2>
+          <div class="text-wrapper">
+            <h3>Dazed</h3>
             <p>Mobile web with HTML, CSS and jQuery</p>
           </div>
           <div class="cursor">
             <span>view project</span>
           </div>
-          <a href="works/work-05 (Dazed)/index.html" class="link" target="_blank"></a>
+          <a href="works/work-05 (Dazed)/index.html" class="section__home-link" target="_blank"></a>
         </div>
-      </div><!-- //section  -->
-
+      </div>
+      <!-- // .section -->
       <div class="section">
-        <div class="projects system">
-          <div class="project_title system">
+        <div class="section__projects system">
+          <div class="section__side system">
             <ul>
               <li>
-                <h2>Projects</h2>
-                <em>2</em>
+                <h2 class="project-title">Projects</h2>
+                <em class="project-number">2</em>
               </li>
             </ul>
-          </div><!-- //project_title -->
-          <div class="pjt_hero system">
+          </div>
+          <div class="section__side project-hero system">
             <ul>
               <li>
-                <h2>Dazed</h2>
-                <em>3</em>
-              </li><!-- 1 -->
+                <h2 class="project-title">Dazed</h2>
+                <em class="project-number">3</em>
+              </li>
               <li>
-                <h2>Everest</h2>
-                <em>4</em>
-              </li><!-- 2 -->
+                <h2 class="project-title">Everest</h2>
+                <em class="project-number">4</em>
+              </li>
               <li>
-                <h2>Our Legacy</h2>
-                <em>5</em>
-              </li><!-- 3 -->
+                <h2 class="project-title">Our Legacy</h2>
+                <em class="project-number">5</em>
+              </li>
               <li>
-                <h2>Creative Partners</h2>
-                <em>6</em>
-              </li><!-- 4 -->
+                <h2 class="project-title">Creative Partners</h2>
+                <em class="project-number">6</em>
+              </li>
               <li>
-                <h2>Andar</h2>
-                <em>7</em>
-              </li><!-- 5 -->
+                <h2 class="project-title">Andar</h2>
+                <em class="project-number">7</em>
+              </li>
               <li>
-                <h2>Seoul</h2>
-                <em>8</em>
-              </li><!-- 6 -->
+                <h2 class="project-title">Seoul</h2>
+                <em class="project-number">8</em>
+              </li>
             </ul>
-          </div><!-- //pjt_hero -->
+          </div>
           <div class="wrapper">
             <div class="title_area">
               <div class="headline">
@@ -110,9 +109,10 @@
                 <span class="t3">Type</span>
                 <span class="t4">Explore</span>
               </div>
-            </div><!-- //title_area -->
+            </div>
             <nav>
               <ul class="list_wrap">
+                <!-- project list 01 -->
                 <li class="pj_01">
                   <a href="works/work-05 (Dazed)/index.html" class="project" target="_blank">
                     <div class="hero">
@@ -135,7 +135,8 @@
                       </span>
                     </div>
                   </a>
-                </li><!-- // 1 -->
+                </li>
+                <!-- project list 02 -->
                 <li class="pj_02">
                   <a href="works/work-06 (Everest)/index.html" class="project" target="_blank">
                     <div class="hero">
@@ -156,7 +157,8 @@
                       </span>
                     </div>
                   </a>
-                </li><!-- // 2 -->
+                </li>
+                <!-- project list 03 -->
                 <li class="pj_03">
                   <a href="works/work-04 (Our Legacy)/index.html" class="project" target="_blank">
                     <div class="hero">
@@ -177,7 +179,8 @@
                       </span>
                     </div>
                   </a>
-                </li><!-- // 3 -->
+                </li>
+                <!-- project list 04 -->
                 <li class="pj_04">
                   <a href="works/work-03 (Creative Partners)/index.html" class="project" target="_blank">
                     <div class="hero">
@@ -200,7 +203,8 @@
                       </span>
                     </div>
                   </a>
-                </li><!-- // 4 -->
+                </li>
+                <!-- project list 05 -->
                 <li class="pj_05">
                   <a href="works/work-02 (andar)/index.html" class="project" target="_blank">
                     <div class="hero">
@@ -221,12 +225,13 @@
                       </span>
                     </div>
                   </a>
-                </li><!-- // 5 -->
+                </li>
+                <!-- project list 06 -->
                 <li class="pj_06">
                   <a href="works/work-01 (Seoul)/index.html" class="project" target="_blank">
                     <div class="hero">
                       <div class="img_area">
-                        <img src="image/project-seoul.jpg" alt="Seoul">
+                        <img src="image/project-seoul.jpg" alt="Seoul Metropolitan Government">
                       </div>
                     </div>
                     <div class="subtitle">
@@ -242,14 +247,16 @@
                       </span>
                     </div>
                   </a>
-                </li><!-- // 6 -->
-              </ul>
-            </nav><!-- //nav -->
-          </div><!-- //wrapper -->
-        </div><!-- //projects -->
-      </div><!-- //section -->
-    </div><!-- //container -->
-  </main><!-- //main -->
+                </li>
+              </ul><!-- // project list wrapper -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- // .section -->
+    </div>
+    <!-- // .container -->
+  </main>
 
   <script src="js/jquery-3.6.0.min.js"></script>
   
