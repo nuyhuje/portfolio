@@ -46,22 +46,22 @@ header {
 
       // transition: transform var(--duration) ease;
       div {
-          display: flex;
-          justify-content: center;
-          overflow: hidden;
-          // text-shadow: 0 var(--font-size) 0 var(--text);
-          text-shadow: 0 40px 0 #dae0e6;
-          span {
-              display: block;
-              // transition: transform var(--duration) ease;
-              $i: 1;
-              @while $i < 17 {
-                  &:nth-child(#{$i}) {
-                      transition-delay: $i / 90 + s;
-                  }
-                  $i: $i + 1;
-              }
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        // text-shadow: 0 var(--font-size) 0 var(--text);
+        text-shadow: 0 40px 0 #dae0e6;
+        span {
+          display: block;
+          // transition: transform var(--duration) ease;
+          $i: 1;
+          @while $i < 17 {
+            &:nth-child(#{$i}) {
+              transition-delay: $i / 90 + s;
+            }
+            $i: $i + 1;
           }
+        }
       }
     }
   }
@@ -76,26 +76,25 @@ header {
 
       // transition: transform var(--duration) ease;
       div {
-          display: flex;
-          justify-content: center;
-          overflow: hidden;
-          // text-shadow: 0 var(--font-size) 0 var(--text);
-          text-shadow: 0 40px 0 #dae0e6;
-          span {
-              display: block;
-              // transition: transform var(--duration) ease;
-              $i: 1;
-              @while $i < 17 {
-                  &:nth-child(#{$i}) {
-                      transition-delay: $i / 80 + s;
-                  }
-                  $i: $i + 1;
-              }
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        // text-shadow: 0 var(--font-size) 0 var(--text);
+        text-shadow: 0 40px 0 #dae0e6;
+        span {
+          display: block;
+          // transition: transform var(--duration) ease;
+          $i: 1;
+          @while $i < 17 {
+            &:nth-child(#{$i}) {
+              transition-delay: $i / 75 + s;
+            }
+            $i: $i + 1;
           }
+        }
       }
     }
   }
-  
 }
 
 // @keyframes smoke {

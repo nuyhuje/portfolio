@@ -105,10 +105,10 @@ $(function(){
         start: "top 80%",
         end: "top top",
         // markers: true,
-        scrub: .1,
+        scrub: 0.1,
       },
-      yPercent: 10,
-    })
+      yPercent: 6,
+    });
   });
 
   /* 메인 - '포스트, 메일링 폼' Y축 스크롤 애니메이션 */

@@ -1,6 +1,3 @@
-/* Font "Aktiv Grotesk" */
-@import url("https://use.typekit.net/lai3rkk.css");
-
 .blind {
   position: absolute;
   width: 1px;
@@ -9,10 +6,17 @@
   overflow: hidden;
   clip: rect(0,0,0,0);
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
 
+.project-title {
+  font-size: 53px;
+}
+.project-number {
+  font-size: 53px;
+}
 
 /* Dark/Light Mode */
 .system.light {
@@ -21,18 +25,20 @@
   border-color: #000;
   transition: .6s ease-in-out;
 }
-header.light .line {
+.header.light .header__line {
   background: #000;
 }
-.projects.light .title_area, .projects.light .title_area .headline, .projects.light nav li {
+.section__projects.light .title_area,
+.section__projects.light .title_area .headline,
+.section__projects.light nav li {
   border-color: #000;
 }
-.projects.light nav .project .subtitle .view .view_bg,
-.projects.light nav .project .subtitle .view .view_bg_2,
-.projects.light nav .project .subtitle .view .view_label {
+.section__projects.light nav .project .subtitle .view .view_bg,
+.section__projects.light nav .project .subtitle .view .view_bg_2,
+.section__projects.light nav .project .subtitle .view .view_label {
   background: #0e1012;
   color: #fff;
 }
-.projects.light nav .project .subtitle .view .view_label {
+.section__projects.light nav .project .subtitle .view .view_label {
   border-radius: 20px;
 }
