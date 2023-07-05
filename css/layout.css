@@ -40,6 +40,27 @@ body {
 .header .header__logo {
   display: block;
   font-size: 20px;
+  position: relative;
+}
+.header .header__logo:hover {
+  animation: blink .5s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+    text-transform: capitalize;
+  }
+  75% {
+    opacity: 0.7;
+    text-transform: uppercase;
+    text-decoration: wavy;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .header .clock {
