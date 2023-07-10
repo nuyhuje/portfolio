@@ -104,7 +104,7 @@ $(function () {
   $(window).scroll(function () {
     curr = $(window).scrollLeft();
 
-    target = $(".section__projects .section__side").offset().left;
+    target = $(".section__projects .section__side-main").offset().left;
     // $('.header').text('Current ' + curr + ',' + ' Target ' + target);
 
     if (curr >= target) {

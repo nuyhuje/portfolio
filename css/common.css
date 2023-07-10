@@ -11,9 +11,7 @@
   display: none;
 }
 
-.project-title {
-  font-size: 53px;
-}
+.project-title,
 .project-number {
   font-size: 53px;
 }
@@ -25,20 +23,24 @@
   border-color: #000;
   transition: .6s ease-in-out;
 }
+
 .header.light .header__line {
   background: #000;
 }
+
 .section__projects.light .title_area,
 .section__projects.light .title_area .headline,
 .section__projects.light nav li {
   border-color: #000;
 }
+
 .section__projects.light nav .project .subtitle .view .view_bg,
 .section__projects.light nav .project .subtitle .view .view_bg_2,
 .section__projects.light nav .project .subtitle .view .view_label {
   background: #0e1012;
   color: #fff;
 }
+
 .section__projects.light nav .project .subtitle .view .view_label {
   border-radius: 20px;
 }

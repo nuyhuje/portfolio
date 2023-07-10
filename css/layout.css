@@ -13,6 +13,7 @@ body {
   overflow-x: hidden;
 }
 
+/* Header */
 .header {
   position: fixed;
   top: 0;
@@ -42,9 +43,11 @@ body {
   font-size: 20px;
   position: relative;
 }
+
 .header .header__logo:hover {
   animation: blink .5s linear infinite;
 }
+
 @keyframes blink {
   0% {
     opacity: 0;
@@ -74,10 +77,12 @@ body {
 .header .mode {
   display: block;
 }
+
 .header .mode > a {
   display: block;
   padding: 10px 0;
 }
+
 .header .mode svg {
   display: block;
   height: 1.73913vh;
@@ -86,18 +91,22 @@ body {
   stroke: none;
   margin-left: 10px;
 }
+
 .header .mode .mode__circle {
   fill: none;
   transition: .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
+
 .header .mode .mode__circle--01 {
   fill: currentColor;
   transform: translateX(-5px);
 }
+
 .header .mode .mode__circle--02 {
   stroke: currentColor;
   transform: translateX(5px);
 }
+
 .header a:hover .mode__circle--01,
 .header a:hover .mode__circle--02  {
   transform: translateX(0);
